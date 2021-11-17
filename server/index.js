@@ -6,7 +6,10 @@ const errorHandler = require('./handlers/ExceptionHandling')
 const PORT = process.env.PORT || 4765;
 const app =  express();
 
-app.use(cors());
+app.use(cors({
+    origin:'*',
+    methods: ['GET','POST','DELETE']
+}));
 app.use(express.json());
 app.use('/api',router);
 
