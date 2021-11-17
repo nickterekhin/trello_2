@@ -29,5 +29,8 @@ installation and run
     <br>this is API's url
  3. run `npm run start`
  
+## DataBase
+ in root of the project folder there is trello.sql file. import it into your mysqlServer.
+ 
 ## Link to Trello
 http://trello.terekhin-development.com 
